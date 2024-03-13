@@ -1,0 +1,53 @@
+body{
+    font-family: "IBM Plex Serif", serif; 
+}
+
+h1{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+
+}
+
+.campo-texto{
+	width: 70%;
+	font-size: 24px;
+    border-radius: 10px;
+}
+
+.mensaje{
+    /* Layout Properties */
+    top: 100px;
+    left: 900px;
+    width: 400px;
+    height: 300px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 66px;
+    opacity: 1;
+}
+
+.btnEncriptar{
+    top: 777px;
+    left: 176px;
+    width: 427px;
+    height: 113px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 25px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 45px/60px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.final{
+    text-align: center;
+}
